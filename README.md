@@ -13,16 +13,16 @@ REQUIREMENTS:
 
 1. Several Python packages are used:
 
-  Numpy
-  PIL or pillow*
-  matplotlib
-  math
-  copy
-  time
-  Mrc or mrcfile*
-  tifffile
-  scipy
-  gaussfitter**
+-Numpy
+-PIL or pillow*
+-matplotlib
+-math
+-copy
+-time
+-Mrc or mrcfile*
+-tifffile
+-scipy
+-gaussfitter**
 
   *PIL has been deprecated and is interchangeable with a PIL-friendly fork, pillow for new      installations
   *Mrc has been deprecated and is interchangeable with mrcfile
