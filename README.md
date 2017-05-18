@@ -9,6 +9,7 @@ cool is a Python package for:
 
 *ii) Finding the centre of a set of point localisations and measuring the weighted mean distance (radial distance in this case, but can be adapted) Originally designed to work with SMLM data, the point localisations have Gaussian distributed probability densities and this parameter is used to weight each point's contribution to the radius. 
 
+
 **REQUIREMENTS:**
 
  1. Several Python packages are used:
@@ -40,9 +41,12 @@ cool is a Python package for:
 #7 - number of detected photons
 #8 - frame number
 '''
+
+
 **INSTALLATION:**
 
 The code is Python 2 compatible and can be run as is - it is soon to be adapted to a full packages
+
 
 **CONFIGURATION:**
 
@@ -57,6 +61,7 @@ Some variables are configurable:
  * REGION: Root size of square regions to isolate elliptical rings and SMLM clouds
  * WINDOW - second instance: Root size of square regions to isolate SMLM clouds
  * WIN: Size of SMLM images (pixels)
+
 
 **KNOWN ISSUES:** 
 
